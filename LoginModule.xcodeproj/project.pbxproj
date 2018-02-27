@@ -14,6 +14,7 @@
 		557ADDFE2045B695009A3C76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 557ADDFC2045B695009A3C76 /* LaunchScreen.storyboard */; };
 		557ADE012045B695009A3C76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 557ADE002045B695009A3C76 /* main.m */; };
 		557ADE0B2045B696009A3C76 /* LoginModuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 557ADE0A2045B696009A3C76 /* LoginModuleTests.m */; };
+		557ADE182045BBDC009A3C76 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 557ADE172045BBDC009A3C76 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		557ADE062045B696009A3C76 /* LoginModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		557ADE0A2045B696009A3C76 /* LoginModuleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginModuleTests.m; sourceTree = "<group>"; };
 		557ADE0C2045B696009A3C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		557ADE162045BBDC009A3C76 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		557ADE172045BBDC009A3C76 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		557ADDF02045B695009A3C76 /* LoginModule */ = {
 			isa = PBXGroup;
 			children = (
+				557ADE152045BBD1009A3C76 /* NewModule */,
 				557ADDF12045B695009A3C76 /* AppDelegate.h */,
 				557ADDF22045B695009A3C76 /* AppDelegate.m */,
 				557ADDF42045B695009A3C76 /* ViewController.h */,
@@ -101,6 +105,15 @@
 				557ADE0C2045B696009A3C76 /* Info.plist */,
 			);
 			path = LoginModuleTests;
+			sourceTree = "<group>";
+		};
+		557ADE152045BBD1009A3C76 /* NewModule */ = {
+			isa = PBXGroup;
+			children = (
+				557ADE162045BBDC009A3C76 /* LoginViewController.h */,
+				557ADE172045BBDC009A3C76 /* LoginViewController.m */,
+			);
+			path = NewModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				557ADE182045BBDC009A3C76 /* LoginViewController.m in Sources */,
 				557ADDF62045B695009A3C76 /* ViewController.m in Sources */,
 				557ADE012045B695009A3C76 /* main.m in Sources */,
 				557ADDF32045B695009A3C76 /* AppDelegate.m in Sources */,
